@@ -1,12 +1,11 @@
 '''
 This is a very basic Base64decode script
 
-Win$
+Author : Winston M
 
 '''
 
 import base64
-wins = input("Please enter the encoded string: ")
-data = base64.b64decode(wins)
-decoded = data.decode("utf-8")
-print (decoded)
+data = input("Magic starts here: ")
+wins = base64.b64decode(data).decode('utf-8')
+print (wins)
