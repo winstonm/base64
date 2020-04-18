@@ -1,0 +1,3 @@
+import base64
+data = input("Provide the data to do a base64 encoding: ")
+print(str(base64.b64encode(bytes(data, 'utf8')))[1:])
